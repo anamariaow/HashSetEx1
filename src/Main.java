@@ -5,11 +5,11 @@ public class Main {
         setColori();
     }
     public static void setColori() {
-        HashSet<String> colori = new HashSet<String>();
+        HashSet<String> colori = new HashSet<>();
         colori.add("rosso");
         colori.add("bianco");
         colori.add("nero");
 
-        System.out.println("Colori: " + colori.toString() + ", Numero colori: " + colori.size());
+        System.out.println("Colori: " + colori + ", Numero colori: " + colori.size());
     }
 }
